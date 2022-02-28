@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="appoinment.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>APPOINMENTS</h1>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="./index.html">Home</a>
+      <a href="./specialists.html">specialists doctors</a>
+      <a href="./appoinment.html">appoinment</a>
+      <a href="./hospitals.html">hospitals</a>
+     <button> <a  id="SignIN" href="./SIGNUP.html">Sign In</a> </button>
+    </div>
+
+    <br>
+    <div>
+        <div class="container">
+            <div class="calendar">
+              <div class="front">
+                <div class="current-date">
+                  <h1>Friday 15th</h1>
+                  <h1>January 2016</h1> 
+                </div>
+      
+                <div class="current-month">
+                  <ul class="week-days">
+                    <li>MON</li>
+                    <li>TUE</li>
+                    <li>WED</li>
+                    <li>THU</li>
+                    <li>FRI</li>
+                    <li>SAT</li>
+                    <li>SUN</li>
+                  </ul>
+      
+                  <div class="weeks">
+                    <div class="first">
+                      <span class="last-month">28</span>
+                      <span class="last-month">29</span>
+                      <span class="last-month">30</span>
+                      <span class="last-month">31</span>
+                      <span>01</span>
+                      <span>02</span>
+                      <span>03</span>
+                    </div>
+      
+                    <div class="second">
+                      <span>04</span>
+                      <span>05</span>
+                      <span class="event">06</span>
+                      <span>07</span>
+                      <span>08</span>
+                      <span>09</span>
+                      <span>10</span>
+                    </div>
+      
+                    <div class="third">
+                      <span>11</span>
+                      <span>12</span>
+                      <span>13</span>
+                      <span>14</span>
+                      <span class="active">15</span>
+                      <span>16</span>
+                      <span>17</span>
+                    </div>
+      
+                    <div class="fourth">
+                      <span>18</span>
+                      <span>19</span>
+                      <span>20</span>
+                      <span>21</span>
+                      <span>22</span>
+                      <span>23</span>
+                      <span>24</span>
+                    </div>
+      
+                    <div class="fifth">
+                      <span>25</span>
+                      <span>26</span>
+                      <span>27</span>
+                      <span>28</span>
+                      <span>29</span>
+                      <span>30</span>
+                      <span>31</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="back">
+                <input placeholder="What's the event?">
+                <div class="info">
+                  <div class="date">
+                    <p class="info-date">
+                    Date: <span>Jan 15th, 2016</span>
+                    </p>
+                    <p class="info-time">
+                      Time: <span>6:35 PM</span>
+                    </p>
+                  </div>
+                  <div class="address">
+                    <p>
+                      Address: <span>129 W 81st St, New York, NY</span>
+                    </p>
+                  </div>
+                  <div class="observations">
+                    <p>
+                      Observations: <span>Be there 15 minutes earlier</span>
+                    </p>
+                  </div>
+                </div>
+      
+                <div class="actions">
+                  <button class="save">
+                    Save <i class="ion-checkmark"></i>
+                  </button>
+                  <button class="dismiss">
+                    Dismiss <i class="ion-android-close"></i>
+                  </button>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+    </div>
+
+  </script>
+  <title>Reach Me</title>
+  <link rel="stylesheet" type="text/css" href="appointment.css" />
+</head>
+
+<body>
+  <div id="container">
+    <!--This is a division tag for body container-->
+    <div id="body_header">
+      <!--This is a division tag for body header-->
+      <h1>Appointment Request Form</h1>
+      <p>Make your appointments more easier</p>
+
+    </div>
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend><span class="number">1</span>Your basic details</legend>
+        <label for="name">Name*:</label>
+        <input type="text" id="name" name="user_name" placeholder="Atchyut (only first names)" required pattern="[a-zA-Z0-9]+">
+
+        <label for="mail">Email*:</label>
+        <input type="email" id="mail" name="user_email" placeholder="abc@xyz.com" required>
+
+        <label for="tel">Contact Num:</label>
+        <input type="tel" id="tel" placeholder="Include country code" name="user_num">
+
+        
+
+
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="number">2</span>Appointment Details</legend>
+        <label for="appointment_for">Appointment for*:</label>
+        <select id="appointment_for" name="appointment_for" required>
+          <option value="coffee">ENT</option>
+          <option value="meeting">Genral Physician</option>
+          <option value="Business">Dermatoligst</option>
+          <option value="lunch">Neurologists</option>
+          <option value="skype">Skin doctor</option>
+          <option value="movie">Radiologists</option>
+          <option value="couple_date">Gynaecologist</option>
+        </select>
+        <label for="appointment_description">Appointment Description:</label>
+        <textarea id="appointment_description" name="appointment_description" placeholder="I wish to get an appointment for skin diesease."></textarea>
+        <label for="date">Date*:</label>
+        <input type="date" name="date" value="" required></input>
+        <br>
+        <label for="time">Time*:</label>
+        <input type="time" name="time" value="" required></input>
+        <br>
+        <label for="duration">How Long??(Minutes)</label>
+        <input type="radio" name="duration" value="30" checked> 30
+        <input type="radio" name="duration" value="60"> 60
+        <input type="radio" name="duration" value="90"> 90
+        <input type="radio" name="duration" value="more"> max time
+      </fieldset>
+      <button type="submit">Request For Appointment</button>
+    </form>
+
+    <a href="./index.html">
+      <input type="submit"  id="back">
+  </a>
+
+  </body>
+<script src="./app.js"></script>
+</html>

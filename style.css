@@ -1,0 +1,124 @@
+.sidenav {
+  height: 100%;
+  width: 0; 
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px;
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#opennav{
+    size: 20px;
+    color: blue;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#opennav{
+    size: 20px;
+    color: blue;
+}
+
+  body{
+      background-color: rgb(163, 211, 185);
+    text-align: center;
+  }
+
+  #SignIN{
+      text-align: center;
+      background-color: crimson;
+      color: cyan;
+
+  }
+
+  #meddoc{
+      height: 500px;
+      width: 450px;
+    text-align: left;
+  }
+
+  h1{
+    font-size: 50px;
+      color: darkorange;
+      text-align: center;
+      scrollbar-highlight-color: aquamarine;
+     background-color: aqua;
+      
+  }
+
+p{
+  color: rgb(255, 30, 0);
+  font-size: 50px;
+  text-transform: uppercase;
+  font-style: italic;
+  background-color: rgb(230, 205, 94);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.2) url("img/3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: white;
+}
+
+footer{
+  font-size: 50px;
+}

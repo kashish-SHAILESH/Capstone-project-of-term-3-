@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hospital.css">
+    <title>MAPS</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Home</a>
+        <a href="./specialists.html">specialists doctors</a>
+        <a href="./appoinment.html">appoinment</a>
+        <a href="./hospitals.html">hospitals</a>
+       <button> <a  id="SignIN" href="./SIGNUP.html">Sign In</a> </button>
+      </div>
+    <h1>HOSPITALS AVAILABEL NEAR BY</h1>
+    <div id="map"></div>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXu_IWxvmKc2Zm6kTBJnTzoLB388gFy50&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+
+  <a href="./index.html">
+      <input type="submit"  id="back">
+  </a>
+    <script src="./hospital.js"></script>
+</body>
+</html>

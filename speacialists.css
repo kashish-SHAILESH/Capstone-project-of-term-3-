@@ -1,0 +1,218 @@
+
+/* CodePen demo */
+body {
+background: #2a2a2b;
+color:#fff;
+text-align: center;
+font-family: Arial, Helvetica;
+}
+
+.big {
+font-size: 1.2em;
+}
+
+.small {
+font-size: .7em;
+}
+
+.mega {
+  font-size: .7em;
+  }
+
+  .square {
+width: .7em;
+height: .7em;
+margin: .5em;
+display: inline-block;
+}
+
+/* Custom dropdown */
+.custom-dropdown {
+position: relative;
+display: inline-block;
+
+vertical-align: middle;
+margin: 10px; /* demo only */
+}
+
+.custom-dropdown select {
+background-color: #1abc9c;
+color: #fff;
+font-size: inherit;
+padding: .5em;
+padding-right: 2.5em;
+border: 0;
+margin: 0;
+border-radius: 3px;
+text-indent: 0.01px;
+text-overflow: '';
+-webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+content: "";
+position: absolute;
+pointer-events: none;
+}
+
+  body{
+    background-color: blue;
+    text-align: center;
+  }
+
+#appoinmentbtn{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  color: brown;
+  background-color: coral;
+  margin-top: 10%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0; 
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px;
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#opennav{
+    size: 20px;
+    color: blue;
+}
+
+#button{
+    size: 50px;
+    background-color: pink;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    shape-margin: 20%, 20% ;
+   
+   
+}
+
+body{
+    background-color: blueviolet;
+  text-align: center;
+}
+
+#SignIN{
+    text-align: center;
+    background-color: crimson;
+    color: cyan;
+
+}
+
+#meddoc{
+    height: 500px;
+    width: 450px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+style
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.img{
+  width: 100px;
+}
